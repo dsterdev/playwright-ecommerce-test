@@ -12,7 +12,7 @@ test('TC01 Happy-Test-login-test', async ({ page }) => {
 
     await page.getByRole('button', { name: 'Login' }).click();
 
-    await expect(page.getByRole('heading', { name: 'My account' })).toBeVisible({ timeout: 15000 });
+    await expect(page.locator('h1')).toHaveText('My account');
 
     await page.getByRole('link', { name: 'Home' }).click();
 

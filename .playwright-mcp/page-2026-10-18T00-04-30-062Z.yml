@@ -1,0 +1,72 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - text: View the
+    - link "Documentation" [ref=e4] [cursor=pointer]:
+      - /url: https://testsmith-io.github.io/practice-software-testing/#/
+    - text: for this application.
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: Practice Black Box Testing & Bug Hunting
+      - button "Testing Guide" [ref=e9] [cursor=pointer]
+      - button "🐛 Bug Hunting" [ref=e10] [cursor=pointer]
+    - navigation [ref=e11]:
+      - generic [ref=e12]:
+        - link "Practice Software Testing - Toolshop" [ref=e13] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e32]:
+          - menubar "Main menu" [ref=e33]:
+            - menuitem [ref=e34]:
+              - link "Home" [ref=e35] [cursor=pointer]:
+                - /url: /
+            - menuitem [ref=e36]:
+              - button "Categories" [ref=e37] [cursor=pointer]
+            - menuitem [ref=e38]:
+              - link "Contact" [ref=e39] [cursor=pointer]:
+                - /url: /contact
+            - menuitem [ref=e40]:
+              - link "Sign in" [ref=e41] [cursor=pointer]:
+                - /url: /auth/login
+          - button "Select language" [ref=e43] [cursor=pointer]: EN
+  - generic [ref=e235]:
+    - heading "Forgot Password" [level=1] [ref=e236]
+    - generic [ref=e237]:
+      - generic [ref=e238]:
+        - generic [ref=e239]: Email address *
+        - textbox "Email address *" [invalid] [ref=e240]:
+          - /placeholder: Your email
+      - generic [ref=e243]: Email is required
+      - button "Set New Password" [active] [ref=e242] [cursor=pointer]
+  - contentinfo [ref=e165]:
+    - generic [ref=e167]:
+      - generic [ref=e168]: Learn & Explore
+      - generic [ref=e169]:
+        - link "Learn Test Automation Hands-on courses for Playwright, Robot Framework, APIs and more" [ref=e171] [cursor=pointer]:
+          - /url: https://onlinecourses.testsmith.io
+          - generic [ref=e174]:
+            - generic [ref=e175]: Learn Test Automation
+            - text: Hands-on courses for Playwright, Robot Framework, APIs and more
+        - link "API Spector Open-source API testing, mocking and contract testing" [ref=e177] [cursor=pointer]:
+          - /url: https://api-spector.dev
+          - generic [ref=e180]:
+            - generic [ref=e181]: API Spector
+            - text: Open-source API testing, mocking and contract testing
+        - link "GitHub Source code, issues and contributions" [ref=e183] [cursor=pointer]:
+          - /url: https://github.com/testsmith-io/practice-software-testing
+          - generic [ref=e186]:
+            - generic [ref=e187]: GitHub
+            - text: Source code, issues and contributions
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - text: This is a DEMO application, used for software testing training purpose. |
+        - link "Privacy Policy" [ref=e190] [cursor=pointer]:
+          - /url: /privacy
+        - text: "| Banner photo by"
+        - link "Barn Images" [ref=e191] [cursor=pointer]:
+          - /url: https://unsplash.com/@barnimages
+        - text: "on"
+        - link "Unsplash" [ref=e192] [cursor=pointer]:
+          - /url: https://unsplash.com/photos/t5YUoHW6zRo
+        - text: .
+      - generic [ref=e193]: v2.5 | Built 2026-10-11 | Angular 20.0.5
+  - button "Open chat" [ref=e195] [cursor=pointer]
+  - button "Show live shop activity" [ref=e199] [cursor=pointer]
